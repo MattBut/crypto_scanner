@@ -1,7 +1,9 @@
 # 🚀 Crypto Scanner Ecosystem 
 A comprehensive full-stack solution for cryptocurrency market monitoring. This project demonstrates a production-ready architecture using Flutter for the mobile experience and Python for backend data orchestration.
 
-https://github.com/user-attachments/assets/a3a10279-840a-4595-8b51-6f91dc5d36f7
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a3a10279-840a-4595-8b51-6f91dc5d36f7" width="800">
+</p>
 
 [![Download APK]
 
