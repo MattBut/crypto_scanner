@@ -29,19 +29,21 @@ A professional Flutter application for real-time cryptocurrency tracking. Built 
    flutter pub get
 
 3. **Create a .env file in the mobile_app/ root:**
+   
    API_BASE_URL=http://your-api-url:8000
+
    CRYPTO_API_KEY=your_secret_key
 
-4. **Running the App:**  
+5. **Running the App:**  
    ```bash
    # Generate code (if using mockito/riverpod generators)
    flutter pub run build_runner build 
 
-5. **Launch the application**
+6. **Launch the application**
    ```bash
    flutter run
 
-6. **Execution of Tests: The project includes unit and mock tests using mockito to ensure business logic reliability:**
+7. **Execution of Tests: The project includes unit and mock tests using mockito to ensure business logic reliability:**
    ```bash
    flutter test
 
