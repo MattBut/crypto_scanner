@@ -1,0 +1,27 @@
+name: ButiaevDevelopment CI
+
+on:
+  pull_request:
+    branches: [ main ] # Запускать проверку при PR в ветку main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.x' # Укажи свою версию, если нужно
+          channel: 'stable'
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Analyze code (Linter)
+        run: flutter analyze # Проверка на ошибки оформления и логики
+
+#      - name: Run tests
+#        run: flutter test # Запуск твоих Unit-тестов (если есть)
