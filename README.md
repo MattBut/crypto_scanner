@@ -8,7 +8,7 @@ A comprehensive full-stack solution for cryptocurrency market monitoring. This p
 
 [![Download APK]
 
-(https://img.shields.io/badge/Download-APK-green?style=for-the-badge&logo=android)](ТВОЯ_ССЫЛКА_НА_APK)
+(https://img.shields.io/badge/Download-APK-green?style=for-the-badge&logo=android)](https://github.com/MattBut/crypto_scanner/releases/download/v1.0.0/crypto_scanner.apk)
 
 The project is built with Separation of Concerns in mind, split into two primary modules:
 
