@@ -46,7 +46,9 @@ A high-performance FastAPI microservice that aggregates real-time cryptocurrency
 
 ## 📡 API Endpoints (Quick Reference)
    GET /api/market/aggregated_data — Get merged Bybit/CoinGecko data.
+   
    GET /api/market/klines — Get historical candlestick data.
+   
    Note: All requests require X-API-Key header.
 
 ## 📝 License
